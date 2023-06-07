@@ -3,9 +3,9 @@ on:
   workflow_dispatch:
     inputs:
       version:
-        description: "default repository kglaynyi/NYH"
+        description: "default repository anujd64/Thunder"
         required: false
-        default: "kglaynyi/NYH"
+        default: "anujd64/Thunder"
       rf:
         description: "branch default main"
         required: false
@@ -14,7 +14,7 @@ jobs:
   Gradle:
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout NYH ⚡
+      - name: Checkout Thunder ⚡
         uses: actions/checkout@v3
         with:
           repository: ${{ github.event.inputs.checkoutrepo }}
