@@ -1,11 +1,11 @@
-name: Thunder Build
+name: NYH Build
 on:
   workflow_dispatch:
     inputs:
       version:
-        description: "default repository anujd64/Thunder"
+        description: "default repository kglaynyi/NYH"
         required: false
-        default: "anujd64/Thunder"
+        default: "kglaynyi/NYH"
       rf:
         description: "branch default main"
         required: false
