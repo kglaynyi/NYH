@@ -7,7 +7,7 @@ android {
     compileSdk 32
 
     defaultConfig {
-        applicationId "com.theflexproject.thunder"
+        applicationId "com.ny.in"
         minSdk 21
         targetSdk 32
         versionCode 1
