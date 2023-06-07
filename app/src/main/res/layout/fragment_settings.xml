@@ -272,20 +272,7 @@
         <!--                    android:background="@drawable/tab_bg_color"-->
 
 
-        <ImageButton
-            android:id="@+id/telegramImageButton"
-            android:layout_width="50dp"
-            android:layout_height="50dp"
-            android:layout_alignParentEnd="true"
-            android:background="@drawable/tab_item_selector"
-            android:clickable="true"
-            android:focusable="true"
-            android:scaleType="centerInside"
-            android:src="@drawable/telegram"
-            app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintTop_toTopOf="parent"
-            app:tint="#80ffffff" />
+
 
         <!--                    android:background="@drawable/tab_bg_color"-->
 
@@ -296,9 +283,10 @@
         android:id="@+id/versionNumber"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_alignParentBottom="true"
-        android:layout_marginBottom="100dp"
         android:layout_below="@id/imageButtonContainer"
+        android:layout_alignParentBottom="true"
+        android:layout_marginTop="0dp"
+        android:layout_marginBottom="100dp"
         android:fontFamily="@font/jost_regular"
         android:text="Version 1.0.1"
         android:textAlignment="center"
