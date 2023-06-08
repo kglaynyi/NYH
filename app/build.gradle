@@ -7,11 +7,11 @@ android {
     compileSdk 32
 
     defaultConfig {
-        applicationId "com.ny.in"
+        applicationId "com.theflexproject.thunder"
         minSdk 21
         targetSdk 32
         versionCode 1
-        versionName "1.0.3"
+        versionName "1.0.7"
 
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
         javaCompileOptions {
@@ -38,8 +38,8 @@ android {
 
 
 
-        sourceCompatibility JavaVersion.VERSION_1_17
-        targetCompatibility JavaVersion.VERSION_1_17
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
     }
     buildFeatures {
         viewBinding true
@@ -50,7 +50,6 @@ android {
     lintOptions { 
     checkReleaseBuilds false
 }
-    namespace 'com.ny.in'
 }
 
 
