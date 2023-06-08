@@ -38,8 +38,8 @@ android {
 
 
 
-        sourceCompatibility JavaVersion.VERSION_1_11
-        targetCompatibility JavaVersion.VERSION_1_11
+        sourceCompatibility JavaVersion.VERSION_1_17
+        targetCompatibility JavaVersion.VERSION_1_17
     }
     buildFeatures {
         viewBinding true
